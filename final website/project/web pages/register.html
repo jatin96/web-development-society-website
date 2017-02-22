@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register yourself</title>
+<link rel="stylesheet" href="../styling/style.css">
+<script type="text/javascript" src="../javascripts/validate_frontend.js"></script>
+</head>
+<body>
+<h1 class="registration_title">Welcome</h1>
+
+<form class="register" name="Sign-Up" action="register.php" method="post" onSubmit="return validate_frontend();" >
+<input type="text" class="register_input" name="name" id="name" placeholder="Enter your full name" required>
+<input type="text" class="register_input" name="regno" id="regno" maxlength="8" placeholder="Enter your Registration Number" required >
+<div class="register_switch">
+      <input type="radio" name="gender" value="F" id="gender_f" class="register_switch_input" checked>
+      <label for="gender_f" class="register_switch_label">Female</label>
+      <input type="radio" name="gender" value="M" id="gender_m" class="register_switch_input">
+      <label for="gender_m" class="register_switch_label">Male</label>
+    </div>
+   <label>
+  <input list="year" name="year" id="year" class="register_input" placeholder="Enter year like this:nth year(e.g. 1st year)" required>
+<datalist id="year">
+<option value="1st year"></option>
+<option value="2nd year"></option>
+<option value="3rd year"></option>
+<option value="4th year"></option>
+</datalist>
+</label>
+<label>
+<input type="text" name="mob" id="mob" class="register_input" placeholder="Enter Mobile No." required>
+</label>
+</label>
+    <input type="email" name="email" id="email" class="register_input" placeholder="Enter your Email address" required>
+    <input type="password" name="pass" id="pass"  class="register_input" placeholder="Password" required>
+    <input type="submit" value="Create Account" class="register_button">
+    <input type="reset" value="Reset" class="register_button">
+    </form>
+</body>
+</html>

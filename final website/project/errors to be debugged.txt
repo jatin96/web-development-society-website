@@ -1,0 +1,4 @@
+1.MCA registration no has alphabets.check;
+2. use die after each check in register.php
+3.SQL injection prevention.
+4.email and password of last appeared user alredy filled.

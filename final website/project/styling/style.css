@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	line-height:1;
+}
+ol,ul
+{
+	list-style:none;
+}
+body
+{
+	font-size:14px;
+	font:Arial, Helvetica, sans-serif;
+	color:#404040;
+  background-image:url(../resources/circuit_board_art-wallpaper-2560x1440.jpg);
+}
+h1.registration_title {
+  width: 270px;
+  line-height: 43px;
+  margin: 50px auto 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px #990000;
+  background: #8f1a1d;
+  border-radius: 5px;
+  box-shadow:#003 #000033;
+}
+.register
+{
+	margin:0 auto;
+	width:230px;
+	padding:18px;
+	background:#FBFBFB;
+	border-radius:5px;
+}
+.register_input
+{
+	display:block;
+	width:100%;
+	height:40px;
+	margin-top:2px;
+	font-weight:500;
+	background:none;
+	border:0px;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#d8d8d8;	
+}
+.register_button
+{
+	display:block;
+	width:100%;
+	height:45px;
+    margin-top:25px;
+	font-size:18px;
+	font-weight:700;
+	color:#454545;
+	text-align:center;
+	background:#EFEFEF;
+	border:1px solid;
+	border-color:#d8d8d8 #d1d1d1 #c3c3c3;
+	border-radius:5px;
+	cursor:pointer;
+}
+.register_button:active
+{
+	 background: #eee;
+  border-color: #c3c3c3 #d1d1d1 #d8d8d8;
+}
+.register_switch
+{
+	margin-top:10px;
+}
+
+	
+	
+	
+	
+	
+
+	

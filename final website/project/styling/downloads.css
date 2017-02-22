@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+h1.registration_title {
+  width: 270px;
+  line-height: 43px;
+  margin: 50px auto 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px #990000;
+  background: #8f1a1d;
+  border-radius: 5px;
+  box-shadow:#003 #000033;
+}
+.register
+{
+	margin:0 auto;
+	text-align:left;
+	font-size:20px;
+	width:600px;
+	padding-top::20px;
+	padding-left:5px;
+	background:#FBFBFB;
+	border-radius:5px;
+}
+.register_input
+{
+	display:block;
+	list-style:none;
+	width:100%;
+	height:40px;
+	margin-top:8px;
+	padding-top:4px;
+	font-weight:500;
+	background:none;
+	border:0px;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#d8d8d8;	
+}
